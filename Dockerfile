@@ -1,2 +1,2 @@
 FROM alpine
-RUN sudo apk update && sudo apk add openssh-client
+RUN apk update && apk add openssh-client
